@@ -1,0 +1,175 @@
+.HomeContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.HomeContent {
+    width: 100%;
+    height: 100%;
+}
+
+.Home {
+    width: 100%;
+    height: 40%;
+    background: url('../../assets/images/appBackground.jpg');
+    background-size: cover;
+}
+
+.HomeGreeting {
+    font-size: 150px;
+    font-family: 'Quicksand';
+    margin: 0;
+    color: #734488;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.HomeBody {
+    width: 100%;
+    height: 60%;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.HomeLabel {
+    font-size: 16px;
+    font-family: 'Quicksand';
+    color: #734488;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.NavigationBarContainer {
+    width: 100%;
+    height: 45px;
+    background: #734488;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavigationBarImg {
+    width: 20px;
+    height: 20px;
+    z-index: 2
+}
+
+.sectionLogOut {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.sectionLogOut:hover {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #734488;
+    opacity: 0.6;
+}
+
+.NavigationBarLabel {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionMenu {
+    width: 80%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CancelButton {
+    width: 100%;
+    height: 45px;
+    background: #734488;
+    color: #ffffff;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    opacity: 0.7;
+    outline: none;
+}
+
+.AceptButton {
+    width: 100%;
+    height: 45px;
+    background: #734488;
+    color: #ffffff;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AceptButtonContainer {
+    width: 45%;
+}
+
+.CancelButtonContainer {
+    width: 45%;
+}
+
+.ModalTitle {
+    font-size: 20px;
+    font-family: 'Quicksand';
+    color: #734488;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px
+}
+
+.LabeltextModal {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: normal;
+    color: #734488;
+    text-align: center;
+}
+
+@media screen and (min-width: 1030px) {
+    .HomeBody {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .Home {
+        display: none;
+    }
+}

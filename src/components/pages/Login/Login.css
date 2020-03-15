@@ -1,0 +1,225 @@
+.LoginContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.LoginContent {
+    width: 100%;
+    height: 100%;
+}
+
+.Login {
+    width: 100%;
+    height: 100%;
+}
+
+.LoginHigher {
+    width: 100%;
+    height: 30%;
+    background-image: url('../../assets/images/appBackground.jpg');
+}
+
+.LoginLower {
+    width: 85%;
+    height: 70%;
+    background: #ffffff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TitleComponent {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LabelTitleComponent {
+    font-size: 35px;
+    font-family: 'Solstice';
+    color: #75468a;
+}
+
+.regularStyle {
+    width: 100%;
+    height: 45px;
+    background: #e6d6f1;
+    color: #75468a;
+    font-size: 16px;
+    border: 1px solid #75468a;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: 'Quicksand'
+}
+
+.errorStyle {
+    width: 100%;
+    height: 45px;
+    background: rgba(255, 0, 0, 0.05);
+    color: #f9314b;
+    font-size: 16px;
+    border: 1px solid #f9314b;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: 'Quicksand'
+}
+
+.LabelItemComponent {
+    font-size: 16px;
+    color: #75468a;
+    font-weight: 600;
+    font-family: 'Quicksand';
+}
+
+.ItemComponent {
+    display: flex;
+    justify-content: left;
+    align-self: flex-start;
+}
+
+.inputContainer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regularButtonLogin {
+    background: #75468a;
+    width: 70%;
+    height: 45px;
+    border: 1px solid #75468a; 
+    outline: none;
+    border-radius: 35px;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.regularButtonLogin:hover .regularButtonLogin:active {
+    background: #75468a;
+    opacity: 0.6;
+}
+
+.regularButtonLoginContainer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorNotificationLabel {
+    font-size: 14px;
+    color: #f9314b;
+    font-family: 'Quicksand';
+    padding: 0 0 0 7%
+}
+
+.errorNotificationContainer {
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 5px
+}
+
+.modalErrorContainer {
+    background: rgba(255, 0, 0, 0.05);
+    width: 100%;
+    margin: 0 auto 10px auto;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+}
+
+.modalErrorTitle {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Quicksand';
+    font-weight: 800;
+    color: #f9314b;
+}
+
+.modalErrorText {
+    font-size: 14px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    color: #f9314b;
+    margin: 0;
+}
+
+.regularButtonLoginDisabled {
+    background: rgba(35, 47, 52, 0.05);
+    width: 70%;
+    height: 45px;
+    border: solid 1px rgba(35, 47, 52, 0.4);
+    outline: none;
+    border-radius: 35px;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    color: rgba(35, 47, 52, 0.4);
+    font-weight: 400;
+}
+
+.ItemUserLogin {
+    width: 100%;
+}
+
+.ItemPasswordLogin {
+    width: 100%;
+}
+
+.LabelTitleComponent {
+    width: 100%;
+}
+
+@media screen and (min-width: 1030px) {
+    .Login {
+        width: 40%;
+        height: auto;
+        margin: auto auto;
+        padding: 0 0 30px 0;
+        box-shadow: 5px 15px 20px 0 rgba(0, 0, 0, 0.16);
+        border-radius: 10px;
+        box-sizing: content-box;
+        background: #ffffff
+    }
+    .LoginContent {
+        background-image:  linear-gradient(90deg, rgba(117,70,138,1) 0%, rgba(117,70,138,0) 100%, rgba(255,255,255,1) 100%), url('../../assets/images/appBackground.jpg');
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+        align-items: center;
+    }
+    .LabelTitleComponent {
+        margin-top: 20px
+    }
+    .ItemPasswordLogin {
+        margin-top: 3px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .LabelItemComponent {
+        margin-top: 10px
+    }
+    .LoginLower {
+        width: 85%;
+        padding: 10px 0 0 10px
+    }
+    .ItemUserLogin {
+        width: 100%;
+    }
+}

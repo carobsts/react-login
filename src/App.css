@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Solstice';
+    src: url('./components/assets/fonts/Millennial\ Solstice.otf')
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./components/assets/fonts/Quicksand-VariableFont_wght.ttf')
+}
