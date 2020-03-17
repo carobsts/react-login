@@ -157,7 +157,7 @@ const Login = () => {
                                     style={{ color: '#734488' }}
                                     >
                                         <Item 
-                                        text='I want to sing up' />
+                                        text='I want to sign up' />
                                     </Link>
                                 </div>
 

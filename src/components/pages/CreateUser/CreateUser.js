@@ -200,7 +200,7 @@ const CreateUser = () => {
                             <ErrorNotification text="Password don't match" /> }
 
                         <Button 
-                            text='Sing Up'
+                            text='Sign Up'
                             handleOnClick={handleSubmit}
                             param={params}
                         />
@@ -215,7 +215,7 @@ const CreateUser = () => {
                             style={{ color: '#734488' }}
                             >
                                 <Item 
-                                text='I want to sing in' />
+                                text='I want to sign in' />
                             </Link>
                         </div>
                     </div>
